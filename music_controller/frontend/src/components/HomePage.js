@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import RoomJoinPage from "./RoomJoinPage";
 import CreatRoomPage from "./CreatRoomPage";
-import { BrowserRouter, Routes, Route, Link, useNavigate } from 'react-router-dom'; // Importações corrigidas
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 export default class HomePage extends Component {
   constructor(props) {
